@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    width: 1600px;
+    height: 1130px;
+    background-color: #0F1424;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, 'Playfair Display', Georgia, serif;
+  }
+  .cert-frame {
+    width: 1460px;
+    height: 1000px;
+    background-color: #F8F6F0;
+    border: 12px solid #F8F6F0;
+    box-shadow: inset 0 0 0 2px #E2DDD3;
+    position: relative;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: radial-gradient(#E8E3D8 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+  .seal {
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    width: 160px;
+    height: 160px;
+    border: 2px dashed #C8B896;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #9E8963;
+    font-size: 14px;
+    font-weight: bold;
+    transform: rotate(-15deg);
+    letter-spacing: 2px;
+  }
+  .seal-text {
+    text-align: center;
+    line-height: 1.2;
+    text-transform: uppercase;
+  }
+  .brand-header {
+    font-size: 82px;
+    font-weight: normal;
+    letter-spacing: 12px;
+    color: #111;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .attestation-label {
+    font-size: 20px;
+    font-style: italic;
+    color: #444;
+    margin-bottom: 35px;
+  }
+  .candidate-name {
+    font-size: 48px;
+    font-weight: normal;
+    color: #111;
+    margin-bottom: 45px;
+    letter-spacing: 1px;
+  }
+  .cert-body-label {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  .cert-title {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: #111;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+  }
+  .cert-desc {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #444;
+    max-width: 900px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+  }
+  .specialization {
+    font-size: 26px;
+    font-style: italic;
+    color: #222;
+    margin-bottom: 50px;
+  }
+  .meta-footer {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #666;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+</style>
+</head>
+<body>
+
+<!-- CERTIFICATE 1 -->
+<div class="cert-frame" id="cert1">
+  <div class="seal">
+    <div class="seal-text">INSIDE<br>LVMH<br><span style="font-size:10px;">CERTIFICATE</span></div>
+  </div>
+  
+  <div class="brand-header">LVMH</div>
+  <div class="attestation-label">attests that</div>
+  <div class="candidate-name">Luka Xiong</div>
+  
+  <div class="cert-body-label">has successfully completed the</div>
+  <div class="cert-title">INSIDE LVMH CERTIFICATE</div>
+  
+  <div class="cert-desc">
+    and learned about the LVMH ecosystem, the fundamentals<br>
+    of the luxury industry and its key challenges, with a specialization in:
+  </div>
+  
+  <div class="specialization">Operations & Supply Chain, Retail & Customer Experience.</div>
+  
+  <div class="meta-footer">
+    <div>Certification date: 05/07/2026</div>
+    <div style="font-size: 14px; letter-spacing: 1px; color: #888;">ID: a361674b-f0f9-4cda-a6a6-a976377d6336</div>
+  </div>
+</div>
+
+</body>
+</html>
